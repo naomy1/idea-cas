@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -------------------------------------------------------------------
+| Message boxes
+| -------------------------------------------------------------------
+*/
+
+.box-info, .box-alert, .box-success, .box-error, .box-weird, .box-neutral, .box-empty {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 17px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 2px;
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+	box-shadow: 0px 0px 5px #808a8f;
+}
+
+.box-info{
+	background-color: #b8ccf1;
+	color: #637699;
+	text-shadow: 0px 1px 0px #d8ecf1;
+}
+
+.box-alert{
+	background-color: #f6e6a6;
+	color: #a6944b;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.box-success{
+	background-color: #c5ec93;
+	color: #759945;
+	text-shadow: 0px 1px 0px #f5fcc3;
+}
+
+.box-error{
+	background-color: #ee6f6f;
+	color: #994545;
+	text-shadow: 0px 1px 0px #fe8f8f;
+}
+
+.box-weird{
+	background-color: #c06fee;
+	color: #7a4599;
+	text-shadow: 0px 1px 0px #e08ffe;
+}
+
+.box-neutral{
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+}
+
+.box-empty{
+	background-color: #fff;
+	color: #808a8f;
+	border: 1px solid #eaeaea;
+	text-shadow: 0px 0px 5px #a0aaaf;
+}
+
+
+
+
+
+/*
+| -------------------------------------------------------------------
+| Message bars
+| -------------------------------------------------------------------
+*/
+
+.bar-info, .bar-alert, .bar-success, .bar-error, .bar-weird, .bar-neutral, .bar-empty {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 7px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 2px;
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+}
+
+.bar-info{
+	background-color: #b8ccf1;
+	color: #637699;
+	text-shadow: 0px 1px 0px #d8ecf1;
+}
+
+.bar-alert{
+	background-color: #f6e6a6;
+	color: #a6944b;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.bar-success{
+	background-color: #c5ec93;
+	color: #759945;
+	text-shadow: 0px 1px 0px #f5fcc3;
+}
+
+.bar-error{
+	background-color: #ee6f6f;
+	color: #994545;
+	text-shadow: 0px 1px 0px #fe8f8f;
+}
+
+.bar-weird{
+	background-color: #c06fee;
+	color: #7a4599;
+	text-shadow: 0px 1px 0px #e08ffe;
+}
+
+.bar-neutral{
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+}
+
+.bar-empty{
+	background-color: #fff;
+	color: #808a8f;
+	border: 1px solid #eaeaea;
+	text-shadow: 0px 0px 5px #a0aaaf;
+}
+
+
+
+
+/*
+| -------------------------------------------------------------------
+| Messenger bar (system-messages)
+| -------------------------------------------------------------------
+*/
+
+.bar-message-info, .bar-message-alert, .bar-message-success, .bar-message-error, .bar-message-weird, .bar-message-neutral, .bar-message-empty {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 10px;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 0px 0px 3px #000a0f;
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+	clear: both;
+}
+
+.bar-message-info{
+	background-color: #b8ccf1;
+	color: #637699;
+	text-shadow: 0px 1px 0px #d8ecf1;
+}
+
+.bar-message-alert{
+	background-color: #f6e6a6;
+	color: #a6944b;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.bar-message-success{
+	background-color: #c5ec93;
+	color: #759945;
+	text-shadow: 0px 1px 0px #f5fcc3;
+}
+
+.bar-message-error{
+	background-color: #ee6f6f;
+	color: #994545;
+	text-shadow: 0px 1px 0px #fe8f8f;
+}
+
+.bar-message-weird{
+	background-color: #c06fee;
+	color: #7a4599;
+	text-shadow: 0px 1px 0px #e08ffe;
+}
+
+.bar-message-neutral{
+	background-color: #c0cacf;
+	color: #606a6f;
+	text-shadow: 0px 1px 0px #e0eaef;
+}
+
+.bar-message-empty{
+	background-color: #fff;
+	color: #808a8f;
+	border: 1px solid #eaeaea;
+	text-shadow: 0px 0px 5px #a0aaaf;
+}

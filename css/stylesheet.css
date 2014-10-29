@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| Getting WebFonts
+| -----------------------------------------------------
+*/
+
+@import url('fonts/pt-sans/stylesheet.css');
+@import url('fonts/open-sans/stylesheet.css');
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| Getting External Stylesheets
+| -----------------------------------------------------
+*/
+
+@import url('stylesheet.1140.css');
+@import url('stylesheet.1140.ie.css');
+@import url('jquery-ui/themes/smoothness/jquery-ui-1.10.2.custom.css');
+@import url('stylesheet.msgboxes.css');
+@import url('stylesheet.advertices.css');
+@import url('stylesheet.form.css');
+@import url('stylesheet.qtip.css');
+@import url('stylesheet.tables.css');
+@import url('stylesheet.window.css');
+@import url('stylesheet.banner.css');
+@import url('stylesheet.system-container.css');
+@import url('stylesheet.dashboard.css');
+@import url('stylesheet.footer.css');
+@import url('stylesheet.profiles.css');
+
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| General Tags
+| -----------------------------------------------------
+*/
+
+* {
+	font-family: "PT Sans", "Trebuchet MS", "Arial", Sans-serif;
+	line-height: 17px;
+	word-spacing: 0.09em;
+	letter-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background: none;
+}
+
+*:focus, *:active {
+	outline: none;
+}
+
+body {
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 11px;
+	background-image: url("../img/bgs/bgs.body.png");
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| General Classes
+| -----------------------------------------------------
+*/
+
+.wrapper {
+	display: block;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+.body-messenger {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 1px;
+	width: 100%;
+	text-align: center;
+}
+
+.spinner-16x16 {
+	display: inline-block;
+	background-image: url('../img/ldr/16/ldr.loader.gif');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+.container {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

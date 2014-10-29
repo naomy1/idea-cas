@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| window-layer
+| -----------------------------------------------------
+*/
+
+.window-layer {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+	overflow: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.window-layer .window-container {
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+	box-shadow: 0px 0px 5px #606a6f;
+	text-align: left;
+	overflow: visible;
+	margin-bottom: 100px;
+}
+
+.window-layer .window-container .window-container-title {
+	display: block;
+	color: #404a4f;
+	/*background-color: #f90;*/
+	background-color: #b0babf;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 0px 1px 0px 0px #d0dadf;
+}
+
+.window-layer .window-container .window-container-messenger {
+	display: block;
+}
+
+.window-layer .window-container .window-container-body {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #404a4f;
+}
+
+.window-layer .window-container .window-container-closewindow {
+	display: inline-block;
+	float: right;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	top: -13px;
+	right: -13px;
+	background-image: url('../img/ico/16/ico.16.close.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px #000;
+}

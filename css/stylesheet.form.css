@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| form
+| -----------------------------------------------------
+*/
+
+.form {
+	display: inline-block;
+	text-align: left;
+}
+
+.form .form-loader {
+	display: block;
+	min-height: 200px;
+	height: 200px;
+	background-image: url('../img/ldr/16/ldr.loader.gif');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.form .form-messenger {
+	display: block;
+}
+
+.form .form-h-break {
+	display: block;
+	clear: both;
+	height: 1px;
+	background-color: #d0dadf;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| form → row
+| -----------------------------------------------------
+*/
+
+.form .form-row {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form .form-row .row-label {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	min-width: 100px;
+	padding-top: 8px;
+}
+
+.form .form-row .row-field {
+	display: inline-block;
+	float: left;
+}
+
+.form .form-row .row-field .ftext {
+	display: block;
+	font-size: 12px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #d0dadf;
+	min-width: 300px;
+	background-color: #fff;
+	color: #808a8f;
+}
+
+.form .form-row .row-field .ftext:focus {
+	box-shadow: 0px 0px 10px 0px #d0dadf;
+}
+
+.form .form-row .row-field .ftext.disabled, .form .form-row .row-field .fselect.disabled {
+	border-color: #f0faff;
+	color: #c0cacf;
+}
+
+.form .form-row .row-field .fselect {
+	display: block;
+	font-size: 12px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #d0dadf;
+	min-width: 310px;
+	background-color: #fff;
+	color: #808a8f;
+}
+
+
+
+
+/*
+| -----------------------------------------------------
+| form → actions
+| -----------------------------------------------------
+*/
+
+.form .form-actions {
+	display: block;
+	text-align: right;
+}
+
+.form .form-actions .button {
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #fff;
+	background-color: #e0e0e0;
+	color: #606a6f;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #909a9f;
+	border-radius: 2px;
+	margin-left: 5px;
+}
+
+.form .form-actions .button.submit {
+	background-color: #f90;
+	color: #a50;
+	border-color: #c70;
+	text-shadow: 0px 1px 0px #fc0;
+}
+
+.form .form-actions .spinner-16x16 {
+	display: none;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| form-tabs
+| -----------------------------------------------------
+*/
+
+.form .form-tabs {
+	display: block;
+	margin-bottom: 0px;
+}
+
+.form .form-tabs .tab {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	background-color: #505a5f;
+	color: #d0eaff;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 0px -1px 0px #202a2f;
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border-bottom: 0px;
+}
+
+.form .form-tabs .tab.selected {
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 0px 0px 0px transparent;
+	color: #606a6f;
+}
+
+.form .tab-container {
+	display: block;
+	padding: 10px;
+	background-color: #fff;
+}
+
+/**
+ * 
+ * login-register-forgotpasswd-form
+ */
+.form .form-login, .form .form-registeruser, .form .form-forgotpasswd {
+	display: block;
+}

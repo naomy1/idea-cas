@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| advertices
+| -----------------------------------------------------
+*/
+
+.advertices {
+	display: inline-block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	height: 100%;
+	float: left;
+	overflow: visible;
+}
+
+.advertices .navegators {
+	display: inline-block;
+	float: left;
+	margin-top: 100px;
+}
+
+.advertices .navegators .message {
+	display: inline-block;
+	width: 150px;
+	background-color: #404a4f;
+	color: #d0eaff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	font-size: 10px;
+	text-shadow: 1px 1px 1px #202a2f;
+	box-shadow: 0px 0px 5px #202a2f;
+}
+
+.advertices .navegators .navegator {
+	display: block;
+	width: 30px;
+	height: 48px;
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-position: 100% 0px;
+}
+
+.advertices .navegators .navegator.firefox			{		background-image: url('../img/ico/48/firefox.png');		}
+.advertices .navegators .navegator.googlechrome		{		background-image: url('../img/ico/48/chrome.png');		}
+.advertices .navegators .navegator.opera			{		background-image: url('../img/ico/48/opera.png');		}
+.advertices .navegators .navegator.safari			{		background-image: url('../img/ico/48/safari.png');		}

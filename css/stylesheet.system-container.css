@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| system-container
+| -----------------------------------------------------
+*/
+
+.system-container {
+	display: block;
+	min-height: 400px;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| system-container → loader
+| -----------------------------------------------------
+*/
+
+.system-container .container-loader {
+	display: block;
+	height: 400px;
+	background-image: url('../img/ldr/16/ldr.loader.gif');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| system-container → school-levels
+| -----------------------------------------------------
+*/
+
+.system-container .school-levels {
+	display: block;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.system-container .school-levels .level {
+	display: inline-block;
+	text-decoration: none;
+	height: 130px;
+	width: 300px;
+	padding: 2px;
+	border: 1px solid #c0cacf;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #303a3f;
+	box-shadow: 0px 0px 5px 0px #d0dadf;
+}
+.system-container .school-levels .level:hover {
+	border-color: #606a6f;
+	box-shadow: 0px 0px 5px 0px #707a7f;
+}
+
+.system-container .school-levels .level .level-label {
+	display: block;
+	background-image: url('../img/bgs/bgs.level.label.png');
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-shadow: 0px 1px 0px #fff;
+	margin-top: 100px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.system-container .school-levels .level.preescolar {
+	background-image: url('../images/preescolar.jpg');
+}
+
+.system-container .school-levels .level.primaria {
+	background-image: url('../images/primaria.jpg');
+}
+
+.system-container .school-levels .level.secundaria {
+	background-image: url('../images/secundaria.jpg');
+}

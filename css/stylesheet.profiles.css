@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| profiles stylsheet → known-data
+| -----------------------------------------------------
+*/
+
+.known-data {
+	display: inline-block;
+	float left;
+	width: 150px;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px;
+}
+
+.known-data span {
+	display: block;
+	font-size: 25px;
+	line-height: 30px;
+}

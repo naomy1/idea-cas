@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| ----------------------------------------------------------------
+| System Banner
+| ----------------------------------------------------------------
+*/
+
+.system-banner {
+	display: block;
+	height: 130px;
+	background-image: url('../img/bnr/bnr.banner.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.system-banner .banner-info {
+	display: block;
+	float: left;
+	margin-top: 80px;
+	margin-left: 75px;
+}
+
+.system-banner .banner-info .info-system-title {
+	display: block;
+	font-family: "Droid Sans", "PT Sans", "Trebuchet MS", Arial, Sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #d0eaff;
+	margin-bottom: 5px;
+}
+
+.system-banner .banner-info .info-system-division {
+	display: block;
+	font-size: 11px;
+	color: #a0bacf;
+}

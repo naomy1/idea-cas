@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| banner
+| -----------------------------------------------------
+*/
+
+.banner {
+	display: block;
+	height: 128px;
+	background-image: url('../img/bnr/bnr.banner.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+/*
+| -----------------------------------------------------
+| banner → banner-title
+| -----------------------------------------------------
+*/
+
+.banner .banner-title {
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 75px;
+	color: #d0dadf;
+	font-weight: bold;
+}
+
+.banner .banner-title .system-title {
+	display: block;
+	font-weight: normal;
+	color: #909a9f;
+}
